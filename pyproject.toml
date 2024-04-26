@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kubecrd"
-version = "0.5.0"
+version = "0.5.1"
 description = "Create Kubernetes CRD using Python dataclasses"
 authors = ["Abhilash Raj <raj.abhilash1@gmail.com>"]
 license = "Apache-2.0"
@@ -14,7 +14,7 @@ repository = "https://github.com/maxking/kubecrd"
 python = ">=3.7,<4"
 apischema = ">=0.15.0"
 PyYAML = ">=6.0"
-kubernetes = "^23.3.0"
+kubernetes = ">=23.3.0,<30.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"
